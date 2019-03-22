@@ -80,36 +80,91 @@ header .logo {
   
 }
 
+.topMenu-content {
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .topMenu {
+      
+      width: 100%;
+      background: white;
+  }
+  
+  .topMenu nav {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 20px 2%;
+      font-size: 14px;
+  }
+  
+  .topMenu nav a {
+      color: black;
+      text-decoration: none;
+  }
 
-
-
-
-
-
+  .logo {
+    display:flex;
+    width:5%;
+}
 
 
 /* ****************************************************************************   FAMILY GUY PAGE STYLES HERE   */
 
 
 
-.middle-image{
-  width: 330px;
-  height: 250px;
+.jumbotron{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+}
+
+.h2Title{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:100%;
+  padding-top:20px;
+}
+.names {
+    padding-top:10px;
+}
+p {
+    display:flex;
+    flex-direction: row;
+}
+
+.cards{        
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.boxes {
+    width: 49.5%;
+    padding: 2%;
+    border-bottom: 1px solid black;
 }
 
 
+.middle-image {
+    width: 80%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.cards .learnMore {
+    padding: 5px 40px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+.cards .boxes p {
+    padding-bottom:10%;
+}
 
 
 /* *******************************************************************************  FOOTER STYLES HERE  */
